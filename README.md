@@ -32,6 +32,9 @@ The language object should contain:
       // The minimum number of unhyphenated characters at the right of each word. (required)
       rightmin: <number>,
 
+      // The character to be used to hyphenate words. (Optional, defaults to soft hyphen (`\u00AD`)) 
+      separator: <character>,
+
       // A comma separated list of hyphenation exceptions. Custom hyphenations
       // can be specified using '-' as hyphenation character. (Optional)
       exceptions: <string>,
